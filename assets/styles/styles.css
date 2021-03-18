@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+main div#componente1 .btn-buy {
+    background-color: rgb(60, 43, 24);
+}
+
+main div#componente3 .btn-alarm{
+    font-family: 'Oswald', sans-serif;
+    background-color: #8c3f23;
+    border-radius: 30px;
+}
+
+main div#componente3 .btn-alarm i {
+    color: #8c3f23;
+    font-size: 15px;
+}
+
+main div#componente4 input {
+    font-family: Arial, "FontAwesome";
+    outline: none;
+}
+
+main div#componente5 input {
+    width: 80%;
+    outline: none;
+    color: rgb(175, 175, 175);
+}
+
+::placeholder { 
+    color: rgb(175, 175, 175);
+    opacity: 80%;
+}
+
+.btn-orange {
+    background-color:#e85126;
+}
+
+.lupa {
+    cursor: pointer;
+    opacity: 30%;
+}
+
+.lupa-container {
+    cursor: text;
+}
+
+.foto {
+    background-image: url(/assets/icons/hamburguesa.jpg);
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
